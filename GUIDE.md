@@ -126,12 +126,39 @@ These use Windows' own file copying, so you get Explorer's progress window for b
 
 **Edit files go with their photo.** ON1's `.on1` file and an `.xmp` file with the same name are moved, copied, renamed and deleted along with the photo. When two photos share a name (IMG_0001.NEF and IMG_0001.JPG) and you only move one, the edit files stay with the one left behind.
 
+## Rotating
+
+**Ctrl+R** turns the selected photos (or the one in the viewer) a quarter turn clockwise, **Ctrl+L** the other way. The right-click menu has **Rotate right** and **Rotate left**, and the viewer has ↺ ↻ buttons.
+
+- **JPEG and TIFF**: SnapShack changes the photo's orientation tag, the same small note a camera writes when you shoot upright. The picture itself isn't re-saved, so there's no loss of quality, and ON1, Photoshop and other programs see the rotation too.
+- **RAW, PSD, PNG and HEIC**: these files aren't changed. SnapShack remembers the rotation and uses it in the grid, the viewer and exports, but other programs won't see it.
+
+## Exporting copies
+
+**Export…** in the toolbar (or right-click, or **Ctrl+Shift+E**) saves copies of the selected photos, for email, the web, a print lab or another program. The originals aren't touched.
+
+- **Format**: JPEG (with a quality setting; 90 shows no visible loss), TIFF (8 or 16-bit, LZW or no compression), PNG, WebP, AVIF or JPEG XL.
+- **Size**: the original size, or a number of pixels on the long edge, short edge, width or height, a box the photo fits inside, or a percentage. **Don't enlarge smaller photos** leaves small photos at their own size.
+- **Sharpen**: a little sharpening after making photos smaller, so they stay crisp. **Light** suits the screen.
+- **Resolution**: the ppi written in the file. It doesn't change the pixels; it only tells print and layout programs how big to print.
+- **Color**: **Convert to sRGB** is right almost everywhere. **Keep the photo's profile** keeps Adobe RGB or another wide profile, for printing or further editing.
+- **Metadata**: keep the camera details, date, copyright and keywords, or leave them all out. **Remove location** takes out GPS positions.
+- **Save in**: the first time this is an **Exported** folder next to the photos. Files that are already there aren't replaced unless you tick **Replace files that are already there**: the new file gets a number instead, like `IMG_0001 (2).jpg`. **Add to name** puts text after each name, like `_web`.
+
+RAW files export as you see them in the viewer: the camera's full-size preview, or a full RAW decode matched to it, so they're 8-bit. Export runs in the background; the status bar shows progress, with **Stop**, and **Show** to open the folder afterwards. SnapShack remembers your choices for next time.
+
+## Color
+
+SnapShack shows photos in your monitor's color profile, the one set in Windows' **Color Management** (or by a calibration tool), and honors the profile inside each photo (Adobe RGB, Display P3 from iPhones, ProPhoto). On an ordinary sRGB screen you'll see little difference; on a calibrated or wide-gamut monitor colors match ON1 and Photoshop. If the window moves to another monitor, SnapShack switches to that monitor's profile. To compare, turn it off and on under **? → Match colors to the monitor**.
+
 ## Keyboard shortcuts
 
 | In the grid | |
 |---|---|
 | Enter or double-click | View the photo, or open the folder tile |
 | Ctrl+E | Open in the first editor |
+| Ctrl+R / Ctrl+L | Rotate right / left |
+| Ctrl+Shift+E | Export… |
 | I | Photo info beside the grid |
 | F2 | Rename |
 | Del | Delete (to the Recycle Bin) |
@@ -150,6 +177,8 @@ These use Windows' own file copying, so you get Explorer's progress window for b
 | 0 | Fit |
 | F or F11 | Fullscreen |
 | I | Photo info |
+| Ctrl+R / Ctrl+L | Rotate right / left |
+| Ctrl+Shift+E | Export… |
 | Ctrl+E | Open in the first editor |
 | F2 / Del | Rename / delete |
 | Esc | Back to the grid |

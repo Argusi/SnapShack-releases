@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-11-12
+
+- Accurate color: photos are shown in your monitor's color profile (as set in Windows' Color Management), and profiles embedded in photos (Adobe RGB, Display P3, ProPhoto) are honored everywhere, including PSD, HEIC and camera JPEGs shot in Adobe RGB. Switch it off under ? → Match colors to the monitor.
+- Rotate (Ctrl+R / Ctrl+L, right-click, or the buttons in the viewer). JPEG and TIFF files get their orientation tag changed: the pictures are never re-saved, so nothing is lost. RAW, PSD, PNG and HEIC files aren't changed; SnapShack remembers their rotation.
+- Export… (Ctrl+Shift+E): save copies as JPEG, TIFF, PNG, WebP, AVIF or JPEG XL, at the original size or by long edge, short edge, width, height, a box or a percentage, with optional sharpening, sRGB conversion, and metadata kept or removed (including location). RAW files export as the viewer shows them.
+- Thumbnails are made again once, to pick up the color fixes.
+
 ## [0.1.0] - 2026-11-12
 
 The first version.
