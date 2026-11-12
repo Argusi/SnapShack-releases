@@ -19,6 +19,7 @@
   - **Include subfolders** shows the photos in every folder below this one too, as one list.
   - **Folder tiles** shows this folder's subfolders as tiles before the photos.
   - **Types ▾** chooses which kinds of files to show (see [Showing only some types](#showing-only-some-types)).
+  - **Search** (Ctrl+F) finds photos by name, folder, camera, lens, keyword or year (see [Searching](#searching)).
   - **Sort** by **Name** or **Date taken**, and **↑ / ↓** for the order.
   - **Size** sets how big the thumbnails are. **Ctrl + mouse wheel** over the grid does the same.
   - **ⓘ** (or **I**) shows the selected photo's details beside the grid: date, camera, lens, exposure and more. With several photos selected it shows how many and their total size.
@@ -56,6 +57,26 @@ With **Folder tiles** on, subfolders appear as tiles at the start of the grid, e
 **Types ▾** on the toolbar has a tick for each kind of file: RAW, JPEG, PNG, TIFF, HEIC and PSD / PSB. Untick the ones you don't want to see. **Hide JPEGs that have a RAW** keeps the RAW and hides the JPEG when your camera saved both (IMG_0001.NEF next to IMG_0001.JPG). **Show all types** turns the filter off.
 
 While a filter is on, the button says **Types (filtered)** and the status bar says how many photos it's hiding. SnapShack remembers it for next time.
+
+## Searching
+
+Type in the **Search** box (or press **Ctrl+F**) and the grid shows only the photos that match. It searches the open folder, or the folder and everything below it when **Include subfolders** is on. To search your whole archive, open its top folder and turn on Include subfolders.
+
+Each word is looked for in the file name, the folder names below the open folder, the camera, the lens and the photo's keywords (from Lightroom, ON1, Photoshop or Windows, including .xmp sidecar files). Every word has to match, and capitals don't matter.
+
+| Type | Finds |
+|---|---|
+| `d850` | photos taken with a Nikon D850 |
+| `birthday mom` | photos with both words anywhere: name, folder or keywords |
+| `"pool party"` | the exact phrase |
+| `-raf` | leaves out photos that match, here Fuji RAW files |
+| `1998` | photos taken in 1998, or with 1998 in their name or folder |
+| `1995-1999` | a range of years, the same way |
+| `2019-06` | June 2019 (also finds folders named 2019_06 or 201906) |
+
+A year also finds photos by their folder or file name, because scans and older files often have no date inside, but their folder does.
+
+The first time you search a big folder, SnapShack reads the camera and keyword details of photos it hasn't seen yet. The status bar shows how far along it is, and matches appear as they're found. After that it's instant. **Esc** clears the search; **Enter** or **↓** moves into the results. The search isn't kept when you close SnapShack.
 
 ## The viewer
 
@@ -163,6 +184,7 @@ SnapShack shows photos in your monitor's color profile, the one set in Windows' 
 | F2 | Rename |
 | Del | Delete (to the Recycle Bin) |
 | Ctrl+O | Open folder… |
+| Ctrl+F | Search (Esc clears it) |
 | Ctrl + mouse wheel | Thumbnail size |
 | Backspace or Alt+↑ | Go up a folder |
 | F5 | Refresh the folder |

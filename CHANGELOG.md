@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-11-12
+
+- Search (Ctrl+F): find photos by file or folder name, camera, lens, keywords (including Lightroom/ON1 .xmp sidecars) or year, in the open folder or with all its subfolders. Phrases in quotes, -word to leave out, 1995-1999 for a range of years, 2019-06 for a month.
+- The info panel shows a photo's keywords.
+
 ## [0.2.0] - 2026-11-12
 
 - Accurate color: photos are shown in your monitor's color profile (as set in Windows' Color Management), and profiles embedded in photos (Adobe RGB, Display P3, ProPhoto) are honored everywhere, including PSD, HEIC and camera JPEGs shot in Adobe RGB. Switch it off under ? → Match colors to the monitor.
