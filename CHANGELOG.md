@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [0.3.1] - 2026-11-12
+
+- SnapShack remembers its window size and position (and whether it was maximized), like KlipShot. If that spot is off screen, for example after unplugging a monitor, it opens centered.
+
 ## [0.3.0] - 2026-11-12
 
 - Search (Ctrl+F): find photos by file or folder name, camera, lens, keywords (including Lightroom/ON1 .xmp sidecars) or year, in the open folder or with all its subfolders. Phrases in quotes, -word to leave out, 1995-1999 for a range of years, 2019-06 for a month.

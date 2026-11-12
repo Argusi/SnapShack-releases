@@ -26,7 +26,7 @@
   - **?** has the guide, updates and the version.
 - **Status bar** at the bottom: how many photos there are, and while thumbnails are being made, how far along that is.
 
-SnapShack remembers the folder, size, sort and toggles for next time.
+SnapShack remembers the window size and position, the folder, thumbnail size, sort and toggles for next time.
 
 ## Browsing folders
 
