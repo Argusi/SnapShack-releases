@@ -45,7 +45,7 @@ Your mouse's **back** and **forward** buttons (or **Alt+←** and **Alt+→**) g
 
 Badges on a thumbnail tell you what it is:
 
-- **RAW**, **PSD**, **HEIC**: the file type.
+- **RAW**, **PSD**, **HEIC**, **GIF**, **ICO**: the file type.
 - **ON1**: the photo has an ON1 edit file (`.on1`) next to it, so you've edited it in ON1 Photo RAW.
 
 Some tiles say why there's no picture:
@@ -69,7 +69,7 @@ With **Folder tiles** on, subfolders appear as tiles at the start of the grid, e
 
 ### Showing only some types
 
-**View ▾ → Types** has a tick for each kind of file: RAW, JPEG, PNG, TIFF, HEIC and PSD / PSB. Untick the ones you don't want to see. **Hide JPEGs that have a RAW** keeps the RAW and hides the JPEG when your camera saved both (IMG_0001.NEF next to IMG_0001.JPG). **Show all types** turns the filter off.
+**View ▾ → Types** has a tick for each kind of file: RAW, JPEG, PNG, TIFF, HEIC, PSD / PSB, GIF, Icons and Videos. Untick the ones you don't want to see. **Hide JPEGs that have a RAW** keeps the RAW and hides the JPEG when your camera saved both (IMG_0001.NEF next to IMG_0001.JPG). **Show all types** turns the filter off.
 
 While a filter is on, the **View** button turns blue, the menu says **Types (filtered)** and the status bar says how many photos it's hiding. SnapShack remembers it for next time.
 
@@ -112,6 +112,7 @@ The first time you search a big folder, SnapShack reads the camera and keyword d
 Double-click a photo, or select it and press **Enter**.
 
 - **Flip:** ← and → (also Space and Backspace, Page Up and Page Down, Home and End, the ‹ › buttons, or your mouse's back and forward buttons). The photos either side are already loaded, so flipping is instant.
+- **Animated GIFs** play by themselves and loop. **Space** (or **K**) pauses and plays one; ← → still flip.
 - **Zoom:** the mouse wheel zooms in and out around the pointer. Drag to look around.
 - **100%:** **Z**, a double-click or the zoom button switches between fitting the window and 100% (one photo pixel per screen pixel). **Ctrl+0** fits it again. (The plain number keys rate photos.)
 - **Fullscreen:** **F**. The top bar and the arrows hide; move the mouse to the top or the sides to get them back.

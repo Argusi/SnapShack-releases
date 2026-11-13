@@ -32,7 +32,7 @@ The [guide](GUIDE.md) covers everything, and **Help → How to use SnapShack** o
 
 | | |
 |---|---|
-| Photos | JPG, PNG, TIFF, HEIC/HEIF |
+| Photos | JPG, PNG, TIFF, HEIC/HEIF, GIF (animated GIFs play), ICO icons |
 | RAW | Nikon NEF/NRW, Fujifilm RAF (X-Trans too), DNG (including phone RAW) |
 | Photoshop | PSD, PSB (needs "Maximize Compatibility", see the guide) |
 | Video | MP4, MOV, AVI, MTS/M2TS, MPG, 3GP, WMV, M4V, MKV (H.264, HEVC, MPEG-4, Motion JPEG, MPEG-2 and more) |

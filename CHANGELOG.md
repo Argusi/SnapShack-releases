@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [0.6.0] - 2026-11-13
+
+- GIFs: still and animated GIFs show in the grid (with a GIF badge) and in View ▾ → Types. Animated ones play in the viewer, looping; Space pauses and plays them. Zoom and pan work while they play.
+- Icons: .ico files show in the grid (ICO badge) and viewer at the biggest size inside, with their transparency, and have their own Icons group in Types.
+
 ## [0.5.0] - 2026-11-13
 
 - Videos: MP4, MOV, AVI, MTS/M2TS, MPG, 3GP, WMV, M4V and MKV show in the grid with a frame from the clip and its length, sort by the date they were filmed, and play in the viewer: Space or a click to play and pause, a bar to scrub, 5-second jumps (Shift+← / →), frame steps (, and .), volume and mute. Zoom works while they play. Old camera clips (AVI, Motion JPEG, MPEG) and phone HEVC all play; nothing extra to install.
