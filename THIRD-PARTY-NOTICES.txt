@@ -9,6 +9,24 @@ ImageMagick (ImageMagick License), LibRaw (LGPL 2.1 or CDDL 1.0), libheif and
 libde265 (LGPL 3.0) and other libraries. Their copyright notices and licences are
 reproduced in full at the end of this file, as published with Magick.NET.
 
+LibVLC 3.0.24 (VideoLAN.LibVLC.Windows), the engine of the VLC media player
+https://www.videolan.org/vlc/libvlc.html  ·  source: https://code.videolan.org/videolan/vlc
+Copyright (C) VideoLAN and the VLC authors.
+Licensed under the GNU Lesser General Public License, version 2.1 or later. The full
+text of LGPL 2.1 is reproduced in the Magick.NET section at the end of this file.
+SnapShack uses it, unchanged, to show and play videos. Its plugins include FFmpeg's
+libavcodec/libavformat (LGPL 2.1 or later), dav1d (BSD 2-Clause) and other libraries
+listed in VLC's own source (COPYING and the contrib folder). SnapShack ships a subset
+of the plugins: network, disc, streaming-out and encoder plugins are left out.
+LibVLC stays a set of separate DLLs: SnapShack unpacks them to
+%LOCALAPPDATA%\SnapShack\libvlc, where they can be replaced with another LibVLC 3 build.
+
+LibVLCSharp 3.10.2
+https://code.videolan.org/videolan/LibVLCSharp
+Copyright (C) VideoLAN and the LibVLCSharp authors.
+Licensed under the GNU Lesser General Public License, version 2.1 or later
+(text in the Magick.NET section at the end of this file).
+
 MetadataExtractor 2.9.3
 https://github.com/drewnoakes/metadata-extractor-dotnet
 Copyright 2002-2026 Drew Noakes and contributors.

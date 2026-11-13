@@ -2,6 +2,14 @@
 
 ## [Unreleased]
 
+## [0.5.0] - 2026-11-13
+
+- Videos: MP4, MOV, AVI, MTS/M2TS, MPG, 3GP, WMV, M4V and MKV show in the grid with a frame from the clip and its length, sort by the date they were filmed, and play in the viewer: Space or a click to play and pause, a bar to scrub, 5-second jumps (Shift+← / →), frame steps (, and .), volume and mute. Zoom works while they play. Old camera clips (AVI, Motion JPEG, MPEG) and phone HEVC all play; nothing extra to install.
+- Video speed: hold the mouse button on a playing video for 2×, or Ctrl+wheel (Shift+< / Shift+>) from 0.25× to 4×.
+- Copy a video frame: Ctrl+C in the viewer copies the frame on screen as a picture. In the grid, Ctrl+C copies the video file.
+- View ▾ → Types has a Videos group, and the info panel shows a video's length, codec and frame rate.
+- Videos are listed under Explorer's Open with too (an existing setting is updated by itself).
+
 ## [0.4.0] - 2026-11-12
 
 - Screen saver: SnapShack can be your Windows screen saver, a random slideshow of the folders you choose (and all their subfolders) on every monitor. Add it to Windows' screen savers in ⚙ Settings (or the setup), then pick it in Windows' Screen Saver dialog.

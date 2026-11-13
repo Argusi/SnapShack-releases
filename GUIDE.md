@@ -120,6 +120,25 @@ Double-click a photo, or select it and press **Enter**.
 
 When you zoom in past the picture the viewer loaded, it loads the full resolution in the background. "Loading full resolution…" shows in the top bar, and the picture sharpens in place when it's ready.
 
+## Videos
+
+Videos sit in the grid with your photos: MP4, MOV, AVI, MTS/M2TS (camcorders), MPG, 3GP, WMV, M4V and MKV, from old camera clips to phone HEVC. Each tile shows a frame from early in the clip and its length (**▶ 0:34**). They sort by the date they were filmed when the file says so (phones, Nikon, iPhone and many cameras do), and **View ▾ → Types → Videos** hides them or shows only them.
+
+Open a video like a photo. It shows a still frame with a big **▶**; nothing plays until you ask.
+
+- **Play / pause:** **Space** (or **K**), a click on the video, the **▶** button or the play button in the bar at the bottom. At the end, **↻** plays it again.
+- **The bar:** the time, a slider to jump or scrub, the length, the speed, mute and volume. While a video plays it fades after a couple of seconds; move the mouse to bring it back.
+- **Jump:** **Shift+←** / **Shift+→** go 5 seconds back or ahead. **,** and **.** step one frame back or ahead (and pause).
+- **Speed:** hold the mouse button down on a playing video for 2×, until you let go. **Ctrl + mouse wheel** (or **Shift+<** / **Shift+>**) steps from 0.25× up to 4×, and a click on the speed button goes back to 1×. Each clip starts at normal speed; the sound keeps its pitch.
+- **Sound:** **M** mutes, **↑** / **↓** change the volume. Volume and mute are remembered.
+- **Zoom** works as for photos: the wheel zooms, drag pans, **Z** or a double-click for 100%, even while the video plays.
+- **← / →** still go to the previous or next photo or video. Leaving a video stops it.
+- **Info (I)** shows its length, codec and frame rate as well as the date.
+
+**Copying:** in the viewer, **Ctrl+C** (or right-click → **Copy frame**) copies the frame you're looking at, paused or playing, as a picture at the video's own size (up to your screen's size), like a screenshot without the framing. Right-click → **Copy video file** copies the clip itself. In the grid, **Ctrl+C** copies the video file, to paste into Explorer or attach to an email.
+
+Rotating (**Ctrl+R** / **Ctrl+L**), ratings, rename, move, delete, drag and drop and **Open in…** work for videos as for photos. Videos aren't exported or compared, and the slideshow and screen saver show only photos. Colors in a video aren't matched to your monitor's profile.
+
 ## Comparing photos
 
 To pick the best of a burst or a few similar shots, select 2, 3 or 4 photos in the grid (Ctrl+click) and press **C**, or right-click → **Compare**. They appear side by side (four as 2 × 2).
@@ -248,7 +267,7 @@ SnapShack shows photos in your monitor's color profile, the one set in Windows' 
 |---|---|
 | Enter or double-click | View the photo, or open the folder tile |
 | Ctrl+E | Open in the first editor |
-| Ctrl+C | Copy image (several photos: copy the files) |
+| Ctrl+C | Copy image (a video, or several items: copy the files) |
 | C | Compare the 2-4 selected photos |
 | M | Map of the photos with a location |
 | S | Slideshow from the selected photo |
@@ -282,13 +301,23 @@ SnapShack shows photos in your monitor's color profile, the one set in Windows' 
 | Ctrl+R / Ctrl+L | Rotate right / left |
 | Ctrl+Shift+E | Export… |
 | Ctrl+E | Open in the first editor |
-| Ctrl+C | Copy image (several photos: copy the files) |
+| Ctrl+C | Copy image (a video: the frame on screen) |
 | F2 / Del | Rename / delete |
 | Esc | Back to the grid |
 
+| On a video in the viewer | |
+|---|---|
+| Space or K, or a click | Play / pause |
+| Shift+← / Shift+→ | 5 seconds back / ahead |
+| , / . | One frame back / ahead |
+| Hold the mouse button | 2× while held |
+| Ctrl + mouse wheel, Shift+< / Shift+> | Slower / faster (0.25× – 4×) |
+| M | Mute |
+| ↑ / ↓ | Volume |
+
 ## Opening photos from Explorer
 
-The setup lists SnapShack under **Open with** for every photo type it reads, and adds **Browse with SnapShack** to the right-click menu of folders and drives. It doesn't change which app opens your photos when you double-click them: Windows leaves that choice to you.
+The setup lists SnapShack under **Open with** for every photo and video type it reads, and adds **Browse with SnapShack** to the right-click menu of folders and drives. It doesn't change which app opens your photos when you double-click them: Windows leaves that choice to you.
 
 - **To use SnapShack for a type:** in Explorer, right-click a photo of that type, choose **Open with → Choose another app**, pick SnapShack and click **Always**. Do it once per type, say for JPEG and TIFF, while NEFs keep opening in ON1. Windows only lets you make that choice yourself: an app can't set it, and Windows only shows **Always** when you open the picker from Explorer. **⚙ Settings → File types** lists which app opens each type now.
 - Opening a photo shows it in the viewer, in its folder, so the arrow keys go through the rest of the folder.
