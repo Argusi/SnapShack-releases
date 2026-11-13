@@ -2,6 +2,22 @@
 
 ## [Unreleased]
 
+## [0.4.0] - 2026-11-12
+
+- Screen saver: SnapShack can be your Windows screen saver, a random slideshow of the folders you choose (and all their subfolders) on every monitor. Add it to Windows' screen savers in ⚙ Settings (or the setup), then pick it in Windows' Screen Saver dialog.
+- Slideshow (S): the grid's photos full screen with a fade, from the selected one. Space pauses, arrow keys step and change the speed, 1-9 rate as it plays. Speed, random order and the caption are in ⚙ Settings.
+- SnapShack remembers where you were: coming back to a folder selects the photo you were on there, closing in the viewer reopens it on that photo, and Back / Forward folder history is kept between sessions.
+- Favorite folders at the top of the folder tree: right-click a folder → Add to Favorites, or Ctrl+D for the open one.
+- Map (M, or View ▾ → Map): the photos with a GPS location on an OpenStreetMap map, grouped into numbered circles; click one to see those photos. Needs an internet connection for the map itself.
+- Compare: select 2-4 photos and press C (or right-click → Compare) to see them side by side, zoomed and moved together, to pick the sharpest of a burst. Rate the picked one with 1-5 as you go.
+- Ratings and color labels: 1-5 stars (0 clears) and 6-9 for Red, Yellow, Green, Blue, in the grid and the viewer, or right-click. Shown on the thumbnails; View ▾ → Rating / Label shows only some. Saved in .xmp sidecars next to the photos (the photos themselves never change), which ON1 and Lightroom read; ratings already in your photos show too. In the viewer, 100% is now Z or Ctrl+1 and Fit is Ctrl+0, because the number keys rate.
+- The mouse's back and forward buttons (and Alt+← / Alt+→) go back and forward through the folders you've visited, like in Explorer. In the viewer they still flip photos.
+- Tidier toolbar that fits a small window: sort, Include subfolders, Folder tiles and Types are now under View ▾, the search box narrows with the window, and ⓘ, Settings and ? always stay in view.
+- Always on top (View ▾), remembered.
+- ⚙ Settings: editors, color matching, the daily update check (now can be turned off) and file types in one place.
+- Open photos from Explorer: SnapShack is listed under Open with for every photo type it reads, and folders get Browse with SnapShack. To make it the default for a type, use Explorer's Open with → Always; ⚙ Settings shows which app opens each type. A photo opens in the viewer in its folder, in the SnapShack window that's already open.
+- Copy image (Ctrl+C, or right-click): copies the photo so you can paste it into email, chat, Word or KlipShot (as an sRGB picture up to 4000 pixels on its long edge). With several photos selected, the files are copied, to paste into Explorer or attach to an email.
+
 ## [0.3.1] - 2026-11-12
 
 - SnapShack remembers its window size and position (and whether it was maximized), like KlipShot. If that spot is off screen, for example after unplugging a monitor, it opens centered.
