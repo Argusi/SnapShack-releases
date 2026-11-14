@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+## [0.8.0] - 2026-11-14
+
+- Search finds folders too: with Folder tiles on, a search shows the subfolders whose name matches as tiles. With Include subfolders on as well, it finds matching folders at any depth below the open folder (shown by their path, such as Trips\Paris 2019). Opening a found folder clears the search. While Folder tiles is on, a folder's name finds only its tile: the photos and videos inside show only if they match by their own name, camera, lens, keywords or date.
+- Going back to a search: after opening a folder found by a search, Back (Backspace, Alt+← or the mouse's back button) returns to the search with that folder selected, ready to pick the next one.
+- Viewer: the mouse's back button now returns to the grid (like Esc) instead of flipping to the previous photo.
+- Recent searches: click into the empty search box (or press ↓ in it) for your last 10 searches. A search is remembered when you clear it, leave the box, or open a photo or folder from it.
+
 ## [0.7.1] - 2026-11-14
 
 - Folder tree: selecting a folder with a long name no longer scrolls the tree sideways and hides its left edge, and the stray bar and white square at the bottom of the tree are gone.

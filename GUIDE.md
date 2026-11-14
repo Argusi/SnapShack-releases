@@ -44,7 +44,7 @@ SnapShack remembers the window size and position, the folder, thumbnail size, so
 
 The first time you open a folder, SnapShack makes a thumbnail of every photo in it. The ones on screen come first. After that the folder opens instantly, and only photos that are new or have changed get a new thumbnail.
 
-Your mouse's **back** and **forward** buttons (or **Alt+←** and **Alt+→**) go back to the folders you were in before and forward again, like in Explorer. In the viewer they flip to the previous and next photo instead.
+Your mouse's **back** and **forward** buttons (or **Alt+←** and **Alt+→**) go back to the folders you were in before and forward again, like in Explorer. In the viewer, the back button returns to the grid (like Esc).
 
 Badges on a thumbnail tell you what it is:
 
@@ -69,6 +69,8 @@ With **Include subfolders** on, the grid shows the photos in the folder and in e
 ### Folder tiles
 
 With **Folder tiles** on, subfolders appear as tiles at the start of the grid, each with a photo from inside it. Double-click a folder tile (or press Enter) to open it, and press **Backspace** (or Alt+↑) to go back up.
+
+While you [search](#searching), the folder tiles show only the folders whose name matches. With **Include subfolders** on too, folders at any depth are found and shown by their path (for example *Trips\Paris 2019*), so a search for *paris 2019* finds that folder even when no photo inside has those words. While folder tiles are on, a folder's name finds just its tile, not everything inside it: a search for *videos* shows the videos folder, plus only the files that have "videos" in their own name or keywords. Opening a found folder clears the search; press **Backspace** (or Alt+←, or the mouse's back button) to return to the search with that folder selected, and pick the next one. (With folder tiles off, a folder's name counts for the photos inside it, as described under [Searching](#searching).)
 
 ![Folder tiles: each subfolder as a tile with a photo from inside it](docs/folder-tiles.png)
 
@@ -98,7 +100,7 @@ Type in the **Search** box (or press **Ctrl+F**) and the grid shows only the pho
 
 ![A search for "lake" finding photos by keyword and by name](docs/search.png)
 
-Each word is looked for in the file name, the folder names below the open folder, the camera, the lens and the photo's keywords (from Lightroom, ON1, Photoshop or Windows, including .xmp sidecar files). Every word has to match, and capitals don't matter.
+Each word is looked for in the file name, the folder names below the open folder, the camera, the lens and the photo's keywords (from Lightroom, ON1, Photoshop or Windows, including .xmp sidecar files). Every word has to match, and capitals don't matter. With [folder tiles](#folder-tiles) on, folder names find the folders as tiles instead of the photos inside them.
 
 | Type | Finds |
 |---|---|
@@ -112,7 +114,7 @@ Each word is looked for in the file name, the folder names below the open folder
 
 A year also finds photos by their folder or file name, because scans and older files often have no date inside, but their folder does.
 
-The first time you search a big folder, SnapShack reads the camera and keyword details of photos it hasn't seen yet. The status bar shows how far along it is, and matches appear as they're found. After that it's instant. **Esc** clears the search; **Enter** or **↓** moves into the results. The search isn't kept when you close SnapShack.
+The first time you search a big folder, SnapShack reads the camera and keyword details of photos it hasn't seen yet. The status bar shows how far along it is, and matches appear as they're found. After that it's instant. **Esc** clears the search; **Enter** or **↓** moves into the results. Click into the empty search box, or press **↓** in it, for your last 10 searches; pick one with the mouse or the arrow keys and Enter. The search isn't kept when you close SnapShack.
 
 ## The viewer
 
@@ -120,13 +122,13 @@ Double-click a photo, or select it and press **Enter**.
 
 ![The viewer with the info panel open: date taken, size, camera, lens, rating, label and keywords](docs/viewer.png)
 
-- **Flip:** ← and → (also Space and Backspace, Page Up and Page Down, Home and End, the ‹ › buttons, or your mouse's back and forward buttons). The photos either side are already loaded, so flipping is instant.
+- **Flip:** ← and → (also Space and Backspace, Page Up and Page Down, Home and End, or the ‹ › buttons). The photos either side are already loaded, so flipping is instant.
 - **Animated GIFs** play by themselves and loop. **Space** (or **K**) pauses and plays one; ← → still flip.
 - **Zoom:** the mouse wheel zooms in and out around the pointer. Drag to look around.
 - **100%:** **Z**, a double-click or the zoom button switches between fitting the window and 100% (one photo pixel per screen pixel). **Ctrl+0** fits it again. (The plain number keys rate photos.)
 - **Fullscreen:** **F**. The top bar and the arrows hide; move the mouse to the top or the sides to get them back.
 - **Info:** **I** or the **ⓘ** button opens a panel beside the photo: when it was taken, its size, the camera and lens, shutter speed, aperture, ISO and the rest, plus GPS position, artist and copyright when the camera saved them. It stays open as you flip until you close it. It's the same switch as the grid's ⓘ: on in one is on in both.
-- **Back to the grid:** **Esc** or **← Grid**. The photo you were looking at is selected.
+- **Back to the grid:** **Esc**, **← Grid** or your mouse's back button. The photo you were looking at is selected.
 
 When you zoom in past the picture the viewer loaded, it loads the full resolution in the background. "Loading full resolution…" shows in the top bar, and the picture sharpens in place when it's ready.
 
