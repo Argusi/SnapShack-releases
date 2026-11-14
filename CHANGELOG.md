@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [0.7.0] - 2026-11-14
+
+- Folder tree: your Windows Pictures folder now shows the name Windows gives it, marked "(Windows)", with a line between it and the drives, so it no longer looks like a favorite of the same name. Drives, USB sticks, network and cloud drives and favorites have their own icons.
+- The Pictures folder can be hidden: right-click it → Hide Pictures folder, or View ▾ → Show Pictures folder.
+- A slow or sleeping drive no longer freezes the window: the folder tree reads folders in the background and shows "Loading…" until the drive answers. Adding a favorite on such a drive no longer hangs either.
+
 ## [0.6.1] - 2026-11-13
 
 - Videos: pausing right after pressing Play, or scrubbing a paused video (also after it reached the end), now shows the right frame instead of a frozen or blank picture.

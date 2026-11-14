@@ -14,7 +14,7 @@
 
 ![The SnapShack window: folder tree, toolbar and the thumbnail grid](docs/main-window.png)
 
-- **Folder tree** on the left: your Pictures folder and every drive. Click a folder to show its photos.
+- **Folder tree** on the left: your favorites, your Windows Pictures folder (marked "(Windows)") and every drive. Click a folder to show its photos. A folder on a drive that's slow to answer, such as a sleeping USB disk, shows *Loading…* for a moment instead of freezing the window. Don't want the Pictures folder there? Right-click it → **Hide Pictures folder**, or switch off **View ▾ → Show Pictures folder**.
 - **Toolbar** at the top:
   - **Open folder…** (Ctrl+O) picks any folder.
   - **Open in ▾** sends the selected photos to an editor.
@@ -23,6 +23,7 @@
     - **Sort by name** or **by date taken**, **Ascending** or **Descending**.
     - **Include subfolders** shows the photos in every folder below this one too, as one list.
     - **Folder tiles** shows this folder's subfolders as tiles before the photos.
+    - **Show Pictures folder** shows your Windows Pictures folder at the top of the folder tree.
     - **Types** chooses which kinds of files to show (see [Showing only some types](#showing-only-some-types)).
     - **Rating** and **Label** show only some photos, say ★★★ or more, or only Red (see [Ratings and labels](#ratings-and-labels)).
     - **Map** (**M**) shows the photos on a map (see [Map](#map)).
