@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [0.7.1] - 2026-11-14
+
+- Folder tree: selecting a folder with a long name no longer scrolls the tree sideways and hides its left edge, and the stray bar and white square at the bottom of the tree are gone.
+
 ## [0.7.0] - 2026-11-14
 
 - Folder tree: your Windows Pictures folder now shows the name Windows gives it, marked "(Windows)", with a line between it and the drives, so it no longer looks like a favorite of the same name. Drives, USB sticks, network and cloud drives and favorites have their own icons.
