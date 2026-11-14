@@ -2,6 +2,8 @@
 
 A fast photo browser for Windows. Point it at a folder and flip through years of photos — JPG, PNG, TIFF, HEIC, Nikon and Fujifilm RAW, DNG and Photoshop files, and your videos too — without waiting, then send the one you want to your editor.
 
+![SnapShack showing a folder of photos as thumbnails, with stars, color labels and RAW, video, GIF and ON1 badges, and the folder tree on the left](docs/main-window.png)
+
 - **Fast thumbnails.** RAW files show the camera's own preview instead of being decoded, so a folder of NEFs fills in in seconds. Thumbnails are kept, so the next visit is instant, and only new or changed files are redone.
 - **Big folders.** The grid only draws what's on screen, so 50,000 photos scroll as smoothly as 50.
 - **Viewer.** Double-click a photo for a full-window view: arrow keys to flip (the next and previous photos are already loaded), wheel to zoom, drag to pan, Z for 100%, F for fullscreen. Zooming in loads full resolution in place, and RAW files keep the look your camera gave them, even when you underexpose to protect highlights.
@@ -40,6 +42,10 @@ The [guide](GUIDE.md) covers everything, and **Help → How to use SnapShack** o
 ## Where SnapShack keeps things
 
 Thumbnails, settings and a log are in `%LocalAppData%\SnapShack`. Deleting that folder resets SnapShack; thumbnails are rebuilt as you browse.
+
+## Credits
+
+The photos in the screenshots are CC0 photos from Wikimedia Commons: see [the photo credits](docs/CREDITS.md).
 
 ## Licence
 

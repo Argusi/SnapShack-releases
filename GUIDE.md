@@ -12,6 +12,8 @@
 
 ## The window
 
+![The SnapShack window: folder tree, toolbar and the thumbnail grid](docs/main-window.png)
+
 - **Folder tree** on the left: your Pictures folder and every drive. Click a folder to show its photos.
 - **Toolbar** at the top:
   - **Open folder…** (Ctrl+O) picks any folder.
@@ -67,6 +69,8 @@ With **Include subfolders** on, the grid shows the photos in the folder and in e
 
 With **Folder tiles** on, subfolders appear as tiles at the start of the grid, each with a photo from inside it. Double-click a folder tile (or press Enter) to open it, and press **Backspace** (or Alt+↑) to go back up.
 
+![Folder tiles: each subfolder as a tile with a photo from inside it](docs/folder-tiles.png)
+
 ### Showing only some types
 
 **View ▾ → Types** has a tick for each kind of file: RAW, JPEG, PNG, TIFF, HEIC, PSD / PSB, GIF, Icons and Videos. Untick the ones you don't want to see. **Hide JPEGs that have a RAW** keeps the RAW and hides the JPEG when your camera saved both (IMG_0001.NEF next to IMG_0001.JPG). **Show all types** turns the filter off.
@@ -91,6 +95,8 @@ SnapShack also shows ratings already in your photos: from `.xmp` files, from ins
 
 Type in the **Search** box (or press **Ctrl+F**) and the grid shows only the photos that match. It searches the open folder, or the folder and everything below it when **Include subfolders** is on. To search your whole archive, open its top folder and turn on Include subfolders.
 
+![A search for "lake" finding photos by keyword and by name](docs/search.png)
+
 Each word is looked for in the file name, the folder names below the open folder, the camera, the lens and the photo's keywords (from Lightroom, ON1, Photoshop or Windows, including .xmp sidecar files). Every word has to match, and capitals don't matter.
 
 | Type | Finds |
@@ -111,6 +117,8 @@ The first time you search a big folder, SnapShack reads the camera and keyword d
 
 Double-click a photo, or select it and press **Enter**.
 
+![The viewer with the info panel open: date taken, size, camera, lens, rating, label and keywords](docs/viewer.png)
+
 - **Flip:** ← and → (also Space and Backspace, Page Up and Page Down, Home and End, the ‹ › buttons, or your mouse's back and forward buttons). The photos either side are already loaded, so flipping is instant.
 - **Animated GIFs** play by themselves and loop. **Space** (or **K**) pauses and plays one; ← → still flip.
 - **Zoom:** the mouse wheel zooms in and out around the pointer. Drag to look around.
@@ -124,6 +132,8 @@ When you zoom in past the picture the viewer loaded, it loads the full resolutio
 ## Videos
 
 Videos sit in the grid with your photos: MP4, MOV, AVI, MTS/M2TS (camcorders), MPG, 3GP, WMV, M4V and MKV, from old camera clips to phone HEVC. Each tile shows a frame from early in the clip and its length (**▶ 0:34**). They sort by the date they were filmed when the file says so (phones, Nikon, iPhone and many cameras do), and **View ▾ → Types → Videos** hides them or shows only them.
+
+![A video paused in the viewer, with the play button, seek bar, speed and volume](docs/video.png)
 
 Open a video like a photo. It shows a still frame with a big **▶**; nothing plays until you ask.
 
@@ -143,6 +153,8 @@ Rotating (**Ctrl+R** / **Ctrl+L**), ratings, rename, move, delete, drag and drop
 ## Comparing photos
 
 To pick the best of a burst or a few similar shots, select 2, 3 or 4 photos in the grid (Ctrl+click) and press **C**, or right-click → **Compare**. They appear side by side (four as 2 × 2).
+
+![Two photos side by side in Compare, each with its stars and label](docs/compare.png)
 
 - **Zoom and move them together:** the mouse wheel, dragging and double-click work as in the viewer, and with **Linked** on (the default, **L** switches it) every photo follows to the same spot at the same zoom. **Z** or **100%** shows them all at 100%, **Fit** (Ctrl+0) fits them again.
 - **Click a photo** to pick it (it gets a blue frame), or move with **← →**. Rating keys (1-5, 6-9), right-click and Ctrl+C act on the picked photo, so you can star the keeper as you go. **Enter** opens it in the viewer.
@@ -334,3 +346,7 @@ The setup lists SnapShack under **Open with** for every photo and video type it 
 - **A thumbnail looks wrong or old:** press F5. If it's still wrong, delete `%LocalAppData%\SnapShack\thumbs.db` and SnapShack rebuilds every thumbnail as you browse.
 - **An error:** details are in `%LocalAppData%\SnapShack\snapshack.log`.
 - **Start over:** quit SnapShack and delete the `%LocalAppData%\SnapShack` folder. Your photos are never touched.
+
+---
+
+The photos in this guide's screenshots are CC0 photos from Wikimedia Commons: see [the photo credits](docs/CREDITS.md).
