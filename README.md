@@ -2,7 +2,7 @@
 
 A fast photo browser for Windows. Point it at a folder and flip through years of photos — JPG, PNG, TIFF, HEIC, Nikon and Fujifilm RAW, DNG and Photoshop files, and your videos too — without waiting, then send the one you want to your editor.
 
-![SnapShack showing a folder of photos as thumbnails, with stars, color labels and RAW, video, GIF and ON1 badges, and the folder tree on the left](docs/main-window.png)
+![SnapShack showing a folder of photos as thumbnails, with stars, color labels and video, GIF and ON1 badges, and the folder tree on the left](docs/main-window.png)
 
 - **Fast thumbnails.** RAW files show the camera's own preview instead of being decoded, so a folder of NEFs fills in in seconds. Thumbnails are kept, so the next visit is instant, and only new or changed files are redone.
 - **Big folders.** The grid only draws what's on screen, so 50,000 photos scroll as smoothly as 50.
