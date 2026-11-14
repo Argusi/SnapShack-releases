@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [0.6.1] - 2026-11-13
+
+- Videos: pausing right after pressing Play, or scrubbing a paused video (also after it reached the end), now shows the right frame instead of a frozen or blank picture.
+- Faster thumbnails in big folders: cached thumbnails no longer wait while new ones are being saved, and Include subfolders reads the cache much faster.
+
 ## [0.6.0] - 2026-11-13
 
 - GIFs: still and animated GIFs show in the grid (with a GIF badge) and in View ▾ → Types. Animated ones play in the viewer, looping; Space pauses and plays them. Zoom and pan work while they play.
