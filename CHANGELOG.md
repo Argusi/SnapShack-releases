@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [0.8.2] - 2026-11-14
+
+- Updates no longer go through Windows' Temp folder: SnapShack downloads them into an "update" folder inside its own folder and swaps in the new SnapShack.exe, installed copies too (they used to run the setup). If your antivirus wrongly flags SnapShack, one exclusion for SnapShack's folder (normally %LOCALAPPDATA%\Programs\SnapShack) now covers updates as well. Windows' Apps list keeps showing the right version.
+
 ## [0.8.1] - 2026-11-14
 
 - A selected folder tile is remembered like a photo: coming back to the folder (or starting SnapShack) selects that tile instead of jumping to the last photo you had selected.

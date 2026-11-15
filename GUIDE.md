@@ -344,6 +344,11 @@ The setup lists SnapShack under **Open with** for every photo and video type it 
 
 **? → Check for updates** asks GitHub whether there's a newer SnapShack. If there is, SnapShack asks before downloading anything, checks the download, and restarts on the new version. Your thumbnails and settings are kept. SnapShack also checks quietly once a day when it starts, and tells you in the status bar when there's an update. To stop that, untick **Look for a new version once a day** in **⚙ Settings**.
 
+SnapShack isn't code-signed (that costs more than a free hobby app can carry), so Microsoft Defender sometimes guesses wrong and flags it; the detection names end in `!ml`. If that happens:
+
+- **Windows Security → Virus & threat protection → Protection history**, open the SnapShack entry and choose **Actions → Allow on device** (or **Restore**). That puts back what was removed.
+- To stop it happening again, add a **folder exclusion** for SnapShack's folder: **Virus & threat protection → Manage settings → Exclusions → Add an exclusion → Folder**, and pick `%LOCALAPPDATA%\Programs\SnapShack` (or wherever you unzipped the portable copy). Updates are downloaded into that folder too, so the one exclusion covers them.
+
 ## When something doesn't look right
 
 - **A thumbnail looks wrong or old:** press F5. If it's still wrong, delete `%LocalAppData%\SnapShack\thumbs.db` and SnapShack rebuilds every thumbnail as you browse.
