@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [0.8.1] - 2026-11-14
+
+- A selected folder tile is remembered like a photo: coming back to the folder (or starting SnapShack) selects that tile instead of jumping to the last photo you had selected.
+
 ## [0.8.0] - 2026-11-14
 
 - Search finds folders too: with Folder tiles on, a search shows the subfolders whose name matches as tiles. With Include subfolders on as well, it finds matching folders at any depth below the open folder (shown by their path, such as Trips\Paris 2019). Opening a found folder clears the search. While Folder tiles is on, a folder's name finds only its tile: the photos and videos inside show only if they match by their own name, camera, lens, keywords or date.
