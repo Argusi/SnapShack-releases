@@ -4,6 +4,9 @@ A fast photo browser for Windows. Point it at a folder and flip through years of
 
 ![SnapShack showing a folder of photos as thumbnails, with stars, color labels and video, GIF and ON1 badges, and the folder tree on the left](docs/main-window.png)
 
+> [!IMPORTANT]
+> **Microsoft Defender or SmartScreen may warn about SnapShack.** That's a false alarm: SnapShack has no malicious code. It's flagged because it isn't code-signed yet, and Defender's machine-learning check (detection names ending in `!ml`) distrusts new, unsigned programs. Getting SnapShack code-signed is in progress, which should put an end to the warnings. Until then, see [Install](#install) and the guide's [Updates](GUIDE.md#updates) section for how to let it run. If you'd like a second opinion first, upload the download to [VirusTotal](https://www.virustotal.com).
+
 - **Fast thumbnails.** RAW files show the camera's own preview instead of being decoded, so a folder of NEFs fills in in seconds. Thumbnails are kept, so the next visit is instant, and only new or changed files are redone.
 - **Big folders.** The grid only draws what's on screen, so 50,000 photos scroll as smoothly as 50.
 - **Viewer.** Double-click a photo for a full-window view: arrow keys to flip (the next and previous photos are already loaded), wheel to zoom, drag to pan, Z for 100%, F for fullscreen. Zooming in loads full resolution in place, and RAW files keep the look your camera gave them, even when you underexpose to protect highlights.
@@ -20,7 +23,7 @@ Each release on [Releases](https://github.com/Argusi/SnapShack-releases/releases
 - **Setup:** download `SnapShack-<version>-win-x64-setup.exe` and run it. It installs SnapShack just for you into `%LocalAppData%\Programs\SnapShack` and adds it to the Start menu.
 - **Portable:** download `SnapShack-<version>-win-x64.zip`, unzip it into any folder and run `SnapShack.exe`.
 
-SnapShack isn't code-signed, so the first time you run it, Windows SmartScreen may say "Windows protected your PC". Click **More info**, then **Run anyway**.
+SnapShack isn't code-signed yet, so the first time you run it, Windows SmartScreen may say "Windows protected your PC". Click **More info**, then **Run anyway**. If Defender removes it instead, see the guide's [Updates](GUIDE.md#updates) section.
 
 ## Using SnapShack
 
@@ -28,7 +31,7 @@ SnapShack isn't code-signed, so the first time you run it, Windows SmartScreen m
 2. Double-click a photo to view it. **←** and **→** flip, **Esc** goes back.
 3. Right-click a photo and choose **Open in…** to edit it.
 
-The [guide](GUIDE.md) covers everything, and **Help → How to use SnapShack** opens it.
+The [guide](GUIDE.md) covers everything, and **? → How to use SnapShack** (F1) opens it; **? → What's new** opens the [changelog](CHANGELOG.md).
 
 ## Supported files
 

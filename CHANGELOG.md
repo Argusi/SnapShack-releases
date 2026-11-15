@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [0.8.5] - 2026-11-15
+
+- ? → How to use SnapShack (F1) opens the guide online, with its screenshots and always up to date, instead of the copy next to SnapShack.exe (which stays there to read offline).
+- New ? → What's new opens this list of changes.
+- The README and the guide now explain the Microsoft Defender warnings: they're false alarms on a new, unsigned app, and code signing is in progress.
+
 ## [0.8.4] - 2026-11-15
 
 - No changes you'll notice: a rebuild so the version information inside SnapShack.exe names the exact source it was built from.
