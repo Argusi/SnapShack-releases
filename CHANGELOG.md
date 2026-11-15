@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [0.8.4] - 2026-11-15
+
+- No changes you'll notice: a rebuild so the version information inside SnapShack.exe names the exact source it was built from.
+
 ## [0.8.3] - 2026-11-15
 
 - The mouse's forward button (or Alt+→) now undoes the back button: after going back from the viewer to the grid, forward opens the viewer again on the same photo. The same goes for Compare and the map. Once there is nothing to reopen, forward moves on to the next folder as before.
