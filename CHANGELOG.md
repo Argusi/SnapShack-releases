@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [0.8.3] - 2026-11-15
+
+- The mouse's forward button (or Alt+→) now undoes the back button: after going back from the viewer to the grid, forward opens the viewer again on the same photo. The same goes for Compare and the map. Once there is nothing to reopen, forward moves on to the next folder as before.
+- The back button (or Alt+←) also closes Compare and the map now, and works in the map itself.
+
 ## [0.8.2] - 2026-11-14
 
 - Updates no longer go through Windows' Temp folder: SnapShack downloads them into an "update" folder inside its own folder and swaps in the new SnapShack.exe, installed copies too (they used to run the setup). If your antivirus wrongly flags SnapShack, one exclusion for SnapShack's folder (normally %LOCALAPPDATA%\Programs\SnapShack) now covers updates as well. Windows' Apps list keeps showing the right version.

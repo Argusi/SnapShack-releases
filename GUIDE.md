@@ -44,7 +44,7 @@ SnapShack remembers the window size and position, the folder, thumbnail size, so
 
 The first time you open a folder, SnapShack makes a thumbnail of every photo in it. The ones on screen come first. After that the folder opens instantly, and only photos that are new or have changed get a new thumbnail.
 
-Your mouse's **back** and **forward** buttons (or **Alt+←** and **Alt+→**) go back to the folders you were in before and forward again, like in Explorer. In the viewer, the back button returns to the grid (like Esc).
+Your mouse's **back** and **forward** buttons (or **Alt+←** and **Alt+→**) go back to the folders you were in before and forward again, like in Explorer. In the viewer, the back button returns to the grid (like Esc), and forward then opens the viewer again on the same photo. Compare and the map work the same way: back closes them, forward opens them again.
 
 Badges on a thumbnail tell you what it is:
 
@@ -299,7 +299,7 @@ SnapShack shows photos in your monitor's color profile, the one set in Windows' 
 | Ctrl + mouse wheel | Thumbnail size |
 | Backspace or Alt+↑ | Go up a folder |
 | Ctrl+D | Add the open folder to Favorites (again: remove it) |
-| Mouse back / forward, or Alt+← / Alt+→ | Back to the folder you were in before / forward again |
+| Mouse back / forward, or Alt+← / Alt+→ | Back out of the viewer, Compare or the map, else to the folder you were in before / open again what back closed, else forward a folder |
 | F5 | Refresh the folder |
 | Ctrl+A | Select all |
 
