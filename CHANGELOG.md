@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [0.8.6] - 2026-11-15
+
+- SnapShack.exe, the setup and the uninstaller are now code-signed: Windows shows the publisher as Bruce David Maloney instead of "Unknown publisher". Microsoft Defender and SmartScreen should warn less often as the signature builds up trust.
+
 ## [0.8.5] - 2026-11-15
 
 - ? → How to use SnapShack (F1) opens the guide online, with its screenshots and always up to date, instead of the copy next to SnapShack.exe (which stays there to read offline).

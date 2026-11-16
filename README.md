@@ -5,7 +5,7 @@ A fast photo browser for Windows. Point it at a folder and flip through years of
 ![SnapShack showing a folder of photos as thumbnails, with stars, color labels and video, GIF and ON1 badges, and the folder tree on the left](docs/main-window.png)
 
 > [!IMPORTANT]
-> **Microsoft Defender or SmartScreen may warn about SnapShack.** That's a false alarm: SnapShack has no malicious code. It's flagged because it isn't code-signed yet, and Defender's machine-learning check (detection names ending in `!ml`) distrusts new, unsigned programs. Getting SnapShack code-signed is in progress, which should put an end to the warnings. Until then, see [Install](#install) and the guide's [Updates](GUIDE.md#updates) section for how to let it run. If you'd like a second opinion first, upload the download to [VirusTotal](https://www.virustotal.com).
+> **Microsoft Defender or SmartScreen may now and then warn about SnapShack.** That's a false alarm: SnapShack has no malicious code. SnapShack is code-signed (the publisher shows as Bruce David Maloney), but a new signature has to build up trust with Microsoft first, and until it has, Defender's machine-learning check (detection names ending in `!ml`) can still distrust a new download. See [Install](#install) and the guide's [Updates](GUIDE.md#updates) section for how to let it run. If you'd like a second opinion first, upload the download to [VirusTotal](https://www.virustotal.com).
 
 - **Fast thumbnails.** RAW files show the camera's own preview instead of being decoded, so a folder of NEFs fills in in seconds. Thumbnails are kept, so the next visit is instant, and only new or changed files are redone.
 - **Big folders.** The grid only draws what's on screen, so 50,000 photos scroll as smoothly as 50.
@@ -23,7 +23,7 @@ Each release on [Releases](https://github.com/Argusi/SnapShack-releases/releases
 - **Setup:** download `SnapShack-<version>-win-x64-setup.exe` and run it. It installs SnapShack just for you into `%LocalAppData%\Programs\SnapShack` and adds it to the Start menu.
 - **Portable:** download `SnapShack-<version>-win-x64.zip`, unzip it into any folder and run `SnapShack.exe`.
 
-SnapShack isn't code-signed yet, so the first time you run it, Windows SmartScreen may say "Windows protected your PC". Click **More info**, then **Run anyway**. If Defender removes it instead, see the guide's [Updates](GUIDE.md#updates) section.
+SnapShack is code-signed, but while its signature is new, the first time you run it Windows SmartScreen may still say "Windows protected your PC". Click **More info**, then **Run anyway**. If Defender removes it instead, see the guide's [Updates](GUIDE.md#updates) section.
 
 ## Using SnapShack
 
