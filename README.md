@@ -12,6 +12,7 @@ A fast photo browser for Windows. Point it at a folder and flip through years of
 - **Viewer.** Double-click a photo for a full-window view: arrow keys to flip (the next and previous photos are already loaded), wheel to zoom, drag to pan, Z for 100%, F for fullscreen. Zooming in loads full resolution in place, and RAW files keep the look your camera gave them, even when you underexpose to protect highlights.
 - **Videos.** Clips from old cameras to today's phones sit with your photos, with their length, and play in the viewer: scrub, step frames, speed up (hold the mouse for 2×) and copy the frame you're on as a picture.
 - **Sort and find.** By name or by the date the photo was taken, either way round. Include subfolders to see a whole tree at once, or show subfolders as tiles and click through them.
+- **Print.** Lay photos out on the page your way: drag them on, resize, snap them into line, or use cells (1 to 9 per page, or your own grid) with slots to drop photos into. Exact print sizes like 5×7, a sharpness badge on every photo, and RAW files printed from full resolution.
 - **Open in your editor.** Send photos to ON1 Photo RAW, PhotoCraft, Photoshop or any program you set up, with a right-click or Ctrl+E. Photos you've edited in ON1 get an ON1 badge, and when your editor saves a new file next to the original, it appears straight away.
 - **Your files stay as they are.** SnapShack only reads your photos. It never moves, renames or changes them.
 - A setup, or a portable `SnapShack.exe`. Neither needs admin rights or a .NET install.

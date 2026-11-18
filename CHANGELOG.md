@@ -2,6 +2,17 @@
 
 ## [Unreleased]
 
+## [0.9.0] - 2026-11-17
+
+- Printing. **Print…** in the toolbar (or right-click, or Ctrl+P) opens a page layout for the selected photos, or the one in the viewer:
+  - Pages at your printer's real paper size, with the edge it can't reach shown dashed. Choose the printer, paper, orientation, margins and spacing, and open the printer's own settings for paper type, quality and borderless.
+  - Drag photos from the strip onto the page. Move them (they snap into line), resize them from a corner or with the mouse wheel, type an exact size like 5x7, show the whole photo (Fit) or crop it to fill its frame (Fill), turn a print, duplicate it, and drop one photo on another to swap them.
+  - Cells: 1, 2, 4, 6 or 9 per page, or your own grid, for this page or all the photos. Empty cells are slots to drop photos into. Put all here and Arrange lay a page out for you.
+  - A sharpness badge on every photo (green, amber, red by its print resolution), and warnings before printing a soft photo or one past the printer's edge.
+  - Several pages, Undo and Redo, and your layout is kept until SnapShack closes. Your printer, its settings and margins are remembered.
+  - RAW files print from full resolution, never the small preview, sent at the printer's photo resolution (300 ppi, 360 for Epson).
+- Buttons that can't be used at the moment now look greyed out, everywhere in SnapShack.
+
 ## [0.8.6] - 2026-11-15
 
 - SnapShack.exe, the setup and the uninstaller are now code-signed: Windows shows the publisher as Bruce David Maloney instead of "Unknown publisher". Microsoft Defender and SmartScreen should warn less often as the signature builds up trust.

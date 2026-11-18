@@ -273,6 +273,43 @@ These use Windows' own file copying, so you get Explorer's progress window for b
 
 RAW files export as you see them in the viewer: the camera's full-size preview, or a full RAW decode matched to it, so they're 8-bit. Export runs in the background; the status bar shows progress, with **Stop**, and **Show** to open the folder afterwards. SnapShack remembers your choices for next time.
 
+## Printing
+
+**Print…** in the toolbar (or right-click, or **Ctrl+P**) lays the selected photos out on pages and prints them. In the viewer it prints the photo you're looking at. Videos are left out.
+
+The window shows the page at your printer's real paper size. The dashed line is as far as the printer can reach; a photo crossing it gets an amber outline, and Print warns you before its edge is cut off.
+
+**Putting photos on the page**
+- The photos you chose are in the strip on the left. Drag one onto the page, or double-click it to put it in a free spot. Under each one it says which page it's on.
+- One photo goes straight onto the page. Several start on a blank page, so you can place them yourself.
+- **Put all here** adds every photo that isn't on a page yet and lays them out as big as they'll go, at similar sizes.
+- **Arrange (A)** moves the photos on the page so none overlap, keeping their sizes. A photo is turned only if that's the only way they all fit.
+
+**Cells** lay a page out as a grid: **1, 2, 4, 6** or **9** per page, or your own **Grid** of columns × rows.
+- With **This page only** (on by default), a cell button lays out just the page you're on. Its photos go into the cells, and any that don't fit go onto new pages right after it. An empty page gets empty cells to fill.
+- With **This page only** unticked, a cell button lays out all the photos, as many pages as it takes.
+- An empty cell is a slot: drop a photo into it from the strip, or drag one there from the page. Removing a photo leaves its cell empty for another.
+- **Crop to fill** makes each photo cover its whole cell, cropping the edges that stick out. Off, the whole photo shows, as big as fits.
+- **Turn to fit** turns a portrait photo in a landscape cell, or the other way round, so it prints bigger.
+- **Blank** removes this page's cells (the photos stay), or with This page only unticked, starts over on every page.
+- The cells follow the paper, so changing orientation, margins or spacing redraws them and moves the photos into place.
+
+**Working with a photo** (click it first; its details and tools are at the top right)
+- **Drag** to move it. It snaps to the margins, the page's center and the other photos' edges; hold **Alt** to place it freely. Drop it on another photo to swap the two.
+- **Drag a corner** to resize it, or use the **mouse wheel** over it.
+- **Size**: type a print size like **5x7** and press Enter, or pick a standard size from **▾**. The photo becomes exactly that size on paper, cropped if its shape differs.
+- **Fit** shows the whole photo; **Fill** covers the frame and crops the edges. Double-click the photo to switch. In Fill, **Shift+drag** or **Shift+wheel** chooses which part shows.
+- **Turn** (R) gives it a quarter turn at the same size. Only the print turns: the file isn't changed.
+- **Duplicate** (Ctrl+D) adds another copy beside it, for a few wallet prints on one sheet. **Remove** (Delete) takes it off the page.
+- The badge on each photo is its print resolution: green is sharp, amber (under 200 ppi) a little soft up close, red (under 150) soft or blocky. Print warns you about red ones.
+
+**Pages, printer and paper**
+- **+** adds a page after this one, **Delete page** removes it; empty pages aren't printed. **Undo** and **Redo** (Ctrl+Z, Ctrl+Y) cover every change to the pages.
+- Choose the printer and paper at the right. **Printer settings…** opens your printer's own settings: paper type, quality and borderless.
+- **Margins** and **Between** set the space around the page and between photos, in inches or cm.
+
+Printing uses the full photo, never the small preview: RAW files print from the camera's full-size picture or a full RAW decode, sent at 300 ppi (360 for Epson printers). Close the window and print the same photos again later, and your layout is still there until SnapShack closes. Your printer, its settings and your margins are remembered.
+
 ## Color
 
 SnapShack shows photos in your monitor's color profile, the one set in Windows' **Color Management** (or by a calibration tool), and honors the profile inside each photo (Adobe RGB, Display P3 from iPhones, ProPhoto). On an ordinary sRGB screen you'll see little difference; on a calibrated or wide-gamut monitor colors match ON1 and Photoshop. If the window moves to another monitor, SnapShack switches to that monitor's profile. To compare, turn it off and on with **Match colors to the monitor** in **⚙ Settings**.
@@ -291,6 +328,7 @@ SnapShack shows photos in your monitor's color profile, the one set in Windows' 
 | 6 7 8 9 | Red, Yellow, Green, Blue label (again: off) |
 | Ctrl+R / Ctrl+L | Rotate right / left |
 | Ctrl+Shift+E | Export… |
+| Ctrl+P | Print… |
 | I | Photo info beside the grid |
 | F2 | Rename |
 | Del | Delete (to the Recycle Bin) |
@@ -316,6 +354,7 @@ SnapShack shows photos in your monitor's color profile, the one set in Windows' 
 | I | Photo info |
 | Ctrl+R / Ctrl+L | Rotate right / left |
 | Ctrl+Shift+E | Export… |
+| Ctrl+P | Print… |
 | Ctrl+E | Open in the first editor |
 | Ctrl+C | Copy image (a video: the frame on screen) |
 | F2 / Del | Rename / delete |
@@ -330,6 +369,21 @@ SnapShack shows photos in your monitor's color profile, the one set in Windows' 
 | Ctrl + mouse wheel, Shift+< / Shift+> | Slower / faster (0.25× – 4×) |
 | M | Mute |
 | ↑ / ↓ | Volume |
+
+| In the Print window | |
+|---|---|
+| Drag / drag a corner / mouse wheel | Move / resize / resize the selected photo |
+| Alt while dragging | No snapping |
+| Shift+drag, Shift+wheel | Choose the crop of a Fill photo |
+| Double-click a photo | Fit ↔ Fill |
+| R / F | Turn / Fit ↔ Fill |
+| Ctrl+D / Del | Duplicate / remove |
+| Arrow keys (Shift: bigger steps) | Nudge |
+| A | Arrange this page |
+| Ctrl+Z / Ctrl+Y | Undo / redo |
+| Page Up / Page Down | Previous / next page |
+| Ctrl+P | Print |
+| Esc | Cancel a drag, else close |
 
 ## Opening photos from Explorer
 
